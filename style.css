@@ -1,0 +1,79 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Start Learning page */
+.start-learning-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6c63ff;
+    color: #fff;
+}
+
+#startButton {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    background-color: #fff;
+    color: #6c63ff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+#startButton:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Dashboard page */
+.dashboard-heading {
+    margin-top: 20px;
+    color: #333;
+}
+
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.category-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.category-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.category-card p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
