@@ -1,2 +1,45 @@
 https://drive.google.com/file/d/1yWYjAImdiL3R9xGWLXOgak4QwNfoSO8q/view?usp=drive_link
 download this videos from the above link and save it in videos folder
+
+
+Ensure the folder structure as follows 
+
+project-folder/
+├── index.html
+├── dashboard.html
+├── construction.html
+├── food.html
+├── technical.html
+├── textile.html
+├── transport.html
+├── dashboard.js
+├── video-progress.js
+├── style.css
+├── assets/ 
+│   ├── images/
+│   │   ├── cons.jpg
+│   │   ├── food.jpg
+│   │   ├── tech.jpg
+│   │   ├── tex.jpg
+│   │   └── trans.jpg
+│   └── videos/
+│       ├── category1/
+│       │   ├── construction1.mp4
+│       │   ├── construction2.mp4
+│       │   └── construction3.mp4
+│       ├── category2/
+│       │   ├── food1.mp4
+│       │   ├── food2.mp4
+│       │   └── food3.mp4
+│       ├── category3/
+│       │   ├── technical1.mp4
+│       │   ├── technical2.mp4
+│       │   └── technical3.mp4
+│       ├── category4/
+│       │   ├── textile1.mp4
+│       │   ├── textile2.mp4
+│       │   └── textile3.mp4
+│       └── category5/
+│           ├── transport1.mp4
+│           ├── transport2.mp4
+│           └── transport3.mp4
